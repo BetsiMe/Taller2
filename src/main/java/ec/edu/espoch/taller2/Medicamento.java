@@ -10,4 +10,14 @@ package ec.edu.espoch.taller2;
  */
 public class Medicamento {
     
+ 
+    public String nombre;
+    public int stock;
+
+    public boolean verificarStock() {
+        return true;
+    }
 }
+
+    
+

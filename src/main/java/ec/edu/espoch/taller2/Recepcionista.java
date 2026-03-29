@@ -9,5 +9,15 @@ package ec.edu.espoch.taller2;
  * @author Admin
  */
 public class Recepcionista {
-    
+   
+    public int id;
+    public String nombre;
+
+    public void registrarPaciente(Paciente paciente) {
+    }
+
+    public boolean agendarCita(Paciente paciente, Doctor doctor, String fecha, String hora) {
+        return true;
+    }
 }
+

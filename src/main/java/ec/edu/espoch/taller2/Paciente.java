@@ -9,5 +9,17 @@ package ec.edu.espoch.taller2;
  * @author Admin
  */
 public class Paciente {
-    
+    public int id;
+    public String nombre;
+    public int edad;
+    public String estadoSalud;
+
+    public void registrarPaciente() {
+    }
+
+    public boolean verificarAlergias(String medicamento) {
+        return true;
+    }
 }
+    
+

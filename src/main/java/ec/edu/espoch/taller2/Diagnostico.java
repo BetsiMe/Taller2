@@ -9,5 +9,11 @@ package ec.edu.espoch.taller2;
  * @author Admin
  */
 public class Diagnostico {
-    
+    public String descripcion;
+    public String fecha;
+
+    public void registrarDiagnostico() {
+    }
 }
+    
+

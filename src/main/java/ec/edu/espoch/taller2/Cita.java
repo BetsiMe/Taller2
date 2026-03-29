@@ -9,5 +9,20 @@ package ec.edu.espoch.taller2;
  * @author Admin
  */
 public class Cita {
-    
+    public int id;
+    public String fecha;
+    public String hora;
+
+    public void crearCita(Paciente paciente, Doctor doctor) {
+    }
+
+    public boolean confirmarCita() {
+        return true;
+    }
+
+    public boolean medicoDisponible(Doctor doctor) {
+        return true;
+    }
 }
+    
+

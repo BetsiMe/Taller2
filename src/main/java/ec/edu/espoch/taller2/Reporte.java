@@ -9,5 +9,10 @@ package ec.edu.espoch.taller2;
  * @author Admin
  */
 public class Reporte {
-    
+   
+
+    public void generarReporte() {
+    }
 }
+    
+

@@ -9,5 +9,16 @@ package ec.edu.espoch.taller2;
  * @author Admin
  */
 public class pruebaLaboratorio {
+    public String tipo;
+    public String estado;
+    public String resultado;
+
+    public boolean verificarMuestra() {
+        return true;
+    }
+
+    public String generarResultado() {
+        return "";
+    }
     
 }
